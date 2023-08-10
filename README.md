@@ -36,7 +36,7 @@ You will need the following software components:
 An API request was made OpenWeatherMap to randomly select cities around the world using maximum and minimum longitude values (-180 t0 180) as well as maximum and minimum latitude (-90 to 90) values. The code for the request includes a for loop that appends to a list and then the total number of cities in the list is calculated and displayed. 
 
 ###### Output
-<img src = "/images/len_city_list_pic.png" height="200" width="300"/>
+<img src = "/images/len_city_list_pic.png" width="300"/>
 
 ---
 ##### Retrieve Data for Cities
