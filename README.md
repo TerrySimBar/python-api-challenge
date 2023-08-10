@@ -44,30 +44,30 @@ The data for the cities were retrived and handled with JSON. This was done using
 Here is a sample of how the logger operates:
 
 ###### Output
-<img src = "/images/weather_data_log_pic.png" width="600"/>
+<img src = "/Images/weather_data_log_pic.png" width="600"/>
 
 ---
 ##### Number Cities in the Retrieved Data and Check for Blanks
 It is useful to count the number of cities in the retrieved data as well as check that the data is complete. 
 
 ###### Output 
-<img src =  "/images/len_city_data_pic.png" width="200"/>
+<img src =  "/Images/len_city_data_pic.png" width="200"/>
 
-<img src =  "/images/check_for_blanks_pic.png" width="400"/>
+<img src =  "/Images/check_for_blanks_pic.png" width="400"/>
 
 ---
 ##### City DataFrame 
 The city data was exported as a csv file and then read by pandas to create a DataFrame.
 
 ###### Output
-<img src = "/images/city_data_df_head_pic.png" width="800"/>
+<img src = "/Images/city_data_df_head_pic.png" width="800"/>
 
 ---
 ##### Scatter Plots
 The city DataFrame was used to create four scatter plots to check relationships between city latitude and max temperature, humidity, cloudiness, and wind speed. 
 
 ###### City Latitude vs Max Temp Output
-<img src = "/images/lat_temp_pic.png" width="600"/>
+<img src = "/Images/lat_temp_pic.png" width="600"/>
 <br>
 <br>
 <br>
@@ -75,7 +75,7 @@ The city DataFrame was used to create four scatter plots to check relationships 
 <br>
 
 ###### City Latitude vs Humidity Output
-<img src = "/images/lat_humid_pic.png" width="600"/>
+<img src = "/Images/lat_humid_pic.png" width="600"/>
 <br>
 <br>
 <br>
@@ -83,7 +83,7 @@ The city DataFrame was used to create four scatter plots to check relationships 
 <br>
 
 ###### City Latitude vs Cloudiness Output
-<img src = "/images/lat_cloud_pic.png" width="600"/>
+<img src = "/Images/lat_cloud_pic.png" width="600"/>
 <br>
 <br>
 <br>
@@ -91,14 +91,14 @@ The city DataFrame was used to create four scatter plots to check relationships 
 <br>
 
 ###### City Latitude vs Wind Speed Output
-<img src = "/images/lat_wind_pic.png" width="600"/>
+<img src = "/Images/lat_wind_pic.png" width="600"/>
 
 ---
 ##### Hemisphere DataFrames 
 Two DataFrames were created: one for cities located in the Northern Hemisphere with latitiude of zero or greater, and another for cities located in the Southern Hemisphere with latitude less than zero. See prewiews of the DataFrames below:
 
 ###### Northern Hemisphere DataFrame Head Output
-<img src = "/images/north_hem_df_head_pic.png" width="800"/>
+<img src = "/Images/north_hem_df_head_pic.png" width="800"/>
 <br>
 <br>
 <br>
@@ -106,37 +106,37 @@ Two DataFrames were created: one for cities located in the Northern Hemisphere w
 <br>
 
 ###### Southern Hemisphere Dataframe Head Output
-<img src = "/images/south_hem_df_head_pic.png" width="800"/>
+<img src = "/Images/south_hem_df_head_pic.png" width="800"/>
 
 ---
 ##### Linear Regressions
 Linear regression function was defined and applied the four relationships that were previously graphed with scatter plots. The regressions were separated by the Northern and Southern Hemisphere DataFrames. A total of 8 linear regressions were done with the r-values and equations printed out for each regression. 
 
 ###### Latitude vs Max Temp Output (North)
-<img src = "/images/north_lat_temp_reg_pic.png" width="600"/>
+<img src = "/Images/north_lat_temp_reg_pic.png" width="600"/>
 
 ###### Latitude vs Max Temp Output (South)
-<img src = "/images/south_lat_temp_reg_pic.png" width="600"/>
+<img src = "/Images/south_lat_temp_reg_pic.png" width="600"/>
 
 ###### Latitude vs Humidity Output (North)
-<img src = "/images/north_lat_humid_reg_pic.png" width="600"/>
+<img src = "/Images/north_lat_humid_reg_pic.png" width="600"/>
 
 ###### Latitude vs Humidity Output (South)
-<img src = "/images/south_lat_humid_reg_pic.png" width="600"/>
+<img src = "/Images/south_lat_humid_reg_pic.png" width="600"/>
 
 
 
 ###### Latitude vs Cloudiness Output (North)
-<img src = "/images/north_lat_cloud_reg_pic.png" width="600"/>
+<img src = "/Images/north_lat_cloud_reg_pic.png" width="600"/>
 
 ###### Latitude vs Cloudiness Output (South)
-<img src = "/images/south_lat_cloud_reg_pic.png" width="600"/>
+<img src = "/Images/south_lat_cloud_reg_pic.png" width="600"/>
 
 ###### Latitude vs Wind Speed (North)
-<img src = "/images/north_lat_wind_reg_pic.png" width="600"/>
+<img src = "/Images/north_lat_wind_reg_pic.png" width="600"/>
 
 ###### Latitude vs Wind Speed Output (South)
-<img src = "/images/south_lat_wind_reg_pic.png" width="600"/>
+<img src = "/Images/south_lat_wind_reg_pic.png" width="600"/>
 ---
 
 ### Analysis (VacaytionPy)
@@ -144,26 +144,26 @@ Linear regression function was defined and applied the four relationships that w
 Pandas was used to read and create the city DataFrame that was exported as a csv file in the WeatherPy script.
 
 ###### Output
-<img src = "/images/city_data_df_head_pic.png" width="600"/>
+<img src = "/Images/city_data_df_head_pic.png" width="600"/>
 
 ---
 ##### Dynamic Humidity Map
 Hvplot was used to create a dynamic humidity map with the city DataFrame. Each city is represented by a circle, and the sizes the circles correspond to the humidity levels of the cities.
 ###### Output
-<img src = "/images/humidity_map.png" width="1000"/>
+<img src = "/Images/humidity_map.png" width="1000"/>
 
 ---
 ##### Filtered City DataFrame
 The city DataFrame was filtered with weather criteria such as preferred ranges for temperature, humidity, cloudiness, wind speed, longitude and latitude.  
 
 ###### Output
-<img src = "/images/criteria_city_df.png" width="800"/>
+<img src = "/Images/criteria_city_df.png" width="800"/>
 
 ---
 ##### Hotel DataFrame
 The pandas "copy" function was used to create a hotel DataFrame with specific columns. An empty column was also added to store the hotel names after the next step-the Geoapify search.  
 ###### Output
-<img src = "/images/criteria_city_blnk_hotel.png" width="800"/>
+<img src = "/Images/criteria_city_blnk_hotel.png" width="800"/>
 
 ---
 ##### Geoapify Hotel Search
@@ -171,21 +171,21 @@ The hotel search was done through Geopaify and handled with JSON. This was done 
 Here is sample of how the logger operates:
 
 ###### Logger Output
-<img src = "/images/hotel_search_logger.png" width="600"/>
+<img src = "/Images/hotel_search_logger.png" width="600"/>
 
 ---
 ##### Complete Hotel DataFrame
 The code for the Geoapify search for hotels included adding the hotel names to create a completed hotel DataFrame as previewed below:
 
 ###### Output
-<img src = "/images/complete_hotel_df.png" width="800"/>
+<img src = "/Images/complete_hotel_df.png" width="800"/>
 
 ---
 ##### Filtered Hotel Dynamic Map
 The hotel DataFrame was filtered to exclude cities where no hotels were found, and then hvplot was used to create a dynamic map of the hotel options across the cities that met the specified weather criteria. 
 
 ###### Output
-<img src = "/images/hotel_map.png" alt="regression_screenshot" width="1000"/>
+<img src = "/Images/hotel_map.png" alt="regression_screenshot" width="1000"/>
 
 ---
 #### Usage
