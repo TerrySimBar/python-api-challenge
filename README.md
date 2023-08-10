@@ -38,6 +38,8 @@ An API request was made OpenWeatherMap to randomly select cities around the worl
 ###### Output
 <img src = "/images/len_city_list_pic.png" width="300"/>
 
+
+![Data Log](/images/len_city_list_pic.png)
 ![Alt Text](/images/len_city_list_pic.png)
 ---
 ##### Retrieve Data for Cities
