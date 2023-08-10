@@ -1,5 +1,5 @@
 # python-api-challenge
-A pyhton with APIs project to visualize the weather of over 500 cities of varying distances from the equator in order to make travel plans such as finding hotels. 
+A pyhton with APIs project to visualize the weather of over 500 cities of varying distances from the equator in order to make travel plans, such as finding hotels. 
 
 ## Table of Contents
 #### Introduction
