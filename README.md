@@ -1,5 +1,5 @@
 # python-api-challenge
-A pyhton with APIs project to visualize the weather of over 500 cities of varying distances from the equator in order to make travel plans, such as finding hotels. 
+A python with APIs project to visualize the weather of over 500 cities of varying distances from the equator in order to make travel plans, such as finding hotels. 
 
 ## Table of Contents
 #### Introduction
@@ -11,7 +11,7 @@ A pyhton with APIs project to visualize the weather of over 500 cities of varyin
 
 
 #### Introduction
-This project uses two Jupyter Notebook (ipynb) scripts with python and appropriate software components, as well as Application Programming Interface (API) to gather weather data about randomly selected cities around the world in order to short-list hotels in cities that meet specified weather critieria. The project includes making API calls, creating dataframes, making scatter plots, computing and analyzing linear regressions, creating interactive maps, and saving visulaizations as outputs in a designated folder. 
+This project uses two Jupyter Notebook (ipynb) scripts with python and appropriate software components, as well as Application Programming Interface (API) to gather weather data about randomly selected cities around the world in order to short-list hotels in cities that meet specified weather critieria. The project includes making API calls, creating DataFrames, making scatter plots, computing and analyzing linear regressions, creating interactive maps, and saving visulaizations as outputs in a designated folder. 
 
 - The project includes code features for protecting API keys. 
 
