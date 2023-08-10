@@ -38,9 +38,6 @@ An API request was made OpenWeatherMap to randomly select cities around the worl
 ###### Output
 <img src = "/images/len_city_list_pic.png" width="300"/>
 
-
-![Data Log](/images/len_city_list_pic.png)
-![Alt Text](/images/len_city_list_pic.png)
 ---
 ##### Retrieve Data for Cities
 The data for the cities were retrived and handled with JSON. This was done using functions such as "for", "if", "try", "else", "except" and "pass" to ensure that the retrieval continued in instances such as if an error ocurred, or if no data was found.. A logger was included to print different statuses/actions during the data retrieval. 
