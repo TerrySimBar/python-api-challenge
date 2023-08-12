@@ -110,7 +110,7 @@ Two DataFrames were created: one for cities located in the Northern Hemisphere w
 
 ---
 ##### Linear Regressions
-Linear regression function was defined and applied the four relationships that were previously graphed with scatter plots. The regressions were separated by the Northern and Southern Hemisphere DataFrames. A total of 8 linear regressions were done with the r-values and equations printed out for each regression. 
+A linear regression function was defined and applied to the four relationships that were previously graphed with scatter plots. The regressions were separated by the Northern and Southern Hemisphere DataFrames. A total of 8 linear regressions were done with the r-values and equations printed out for each regression. 
 
 ###### Latitude vs Max Temp Output (North)
 <img src = "/Images/north_lat_temp_reg_pic.png" width="600"/>
@@ -154,7 +154,7 @@ Hvplot was used to create a dynamic humidity map with the city DataFrame. Each c
 
 ---
 ##### Filtered City DataFrame
-The city DataFrame was filtered with weather criteria such as preferred ranges for temperature, humidity, cloudiness, wind speed, longitude and latitude.  
+The city DataFrame was filtered with weather criteria, such as preferred ranges for temperature, humidity, cloudiness, wind speed, longitude and latitude.  
 
 ###### Output
 <img src = "/Images/criteria_city_df.png" width="800"/>
@@ -175,7 +175,7 @@ Here is sample of how the logger operates:
 
 ---
 ##### Complete Hotel DataFrame
-The code for the Geoapify search for hotels included adding the hotel names to create a completed hotel DataFrame as previewed below:
+The code for the Geoapify search for hotels include adding the hotel names to create a completed hotel DataFrame as previewed below:
 
 ###### Output
 <img src = "/Images/complete_hotel_df.png" width="800"/>
