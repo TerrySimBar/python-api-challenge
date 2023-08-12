@@ -11,7 +11,7 @@ A python with APIs project to visualize the weather of over 500 cities of varyin
 
 
 #### Introduction
-This project uses two Jupyter Notebook (ipynb) scripts with python and appropriate software components, as well as Application Programming Interface (API) to gather weather data about randomly selected cities around the world in order to short-list hotels in cities that meet specified weather critieria. The project includes making API calls, creating DataFrames, making scatter plots, computing and analyzing linear regressions, creating interactive maps, and saving visulaizations as outputs in a designated folder. 
+This project uses two Jupyter Notebook (ipynb) scripts with python and appropriate software components, as well as Application Programming Interface (API) to gather weather data about randomly selected cities around the world, in order to short-list hotels in cities that meet specified weather critieria. The project includes making API calls, creating DataFrames, making scatter plots, computing and analyzing linear regressions, creating interactive maps, and saving visulaizations as outputs in a designated folder. 
 
 - The project includes code features for protecting API keys. 
 
@@ -33,7 +33,7 @@ You will need the following software components:
 
 ### Analysis (WeatherPy)
 ##### Random City Selection
-An API request was made OpenWeatherMap to randomly select cities around the world using maximum and minimum longitude values (-180 t0 180) as well as maximum and minimum latitude (-90 to 90) values. The code for the request includes a for loop that appends to a list and then the total number of cities in the list is calculated and displayed. 
+An API request was made OpenWeatherMap to randomly select cities around the world using maximum and minimum longitude values (-180 t0 180) as well as maximum and minimum latitude values (-90 to 90). The code for the request includes a "for" loop that appends to a list, and then the total number of cities in the list is calculated and displayed. 
 
 ###### Output
 <img src = "/Images/len_city_list_pic.png" width="300"/>
