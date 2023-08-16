@@ -10,15 +10,15 @@ A python with APIs project to visualize the weather of over 500 cities of varyin
 #### License
 
 
-#### Introduction
-This project uses two Jupyter Notebook (ipynb) scripts with python and appropriate software components, as well as Application Programming Interface (API) to gather weather data about randomly selected cities around the world, in order to short-list hotels in cities that meet specified weather critieria. The project includes making API calls, creating DataFrames, making scatter plots, computing and analyzing linear regressions, creating interactive maps, and saving visulaizations as outputs in a designated folder. 
+### Introduction
+This project uses two Jupyter Notebook (ipynb) scripts with python and appropriate software components, as well as Application Programming Interface (API) to gather weather data about randomly selected cities around the world, in order to short-list hotels in cities that meet specified weather critieria. The project includes making API calls, creating DataFrames, making scatter plots, computing and analyzing linear regressions, creating interactive maps, and saving visualizations as outputs in a designated folder. 
 
 - The project includes code features for protecting API keys. 
 
 - The code for the random selection of cities is not seeded, and so responses will vary from one API call to another.
 
 
-#### Requirements & Dependencies
+### Requirements & Dependencies
 - Developers are highly encouraged to set up a virtual environment to ensure proper management of dependencies. 
 
 You will need the following software components:
@@ -188,7 +188,7 @@ The hotel DataFrame was filtered to exclude cities where no hotels were found, a
 <img src = "/Images/hotel_map.png" alt="regression_screenshot" width="1000"/>
 
 ---
-#### Usage
+### Usage
 Here's how to use the Jupyter Notebook WeatherPy and VacationPy scripts:
 
 - ##### Create a pyhton script to store and import API keys as aliases. 
@@ -198,7 +198,7 @@ Here's how to use the Jupyter Notebook WeatherPy and VacationPy scripts:
 - ##### Run the code.
 - The scripts will make API calls, organize and analyze data to display the specified elements in-line 
 
-#### Contributing
+### Contributing
 
 Contributions to this project are highly encouraged! If you wish to contribute, please follow these guidelines:
 
