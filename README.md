@@ -202,7 +202,7 @@ Here's how to use the Jupyter Notebook WeatherPy and VacationPy scripts:
 
 Contributions to this project are highly encouraged! If you wish to contribute, please follow these guidelines:
 
-- Fork the respective repository for the Pymaceuticals Jupyter Notebook script and clone it locally.
+- Fork the python-api-challenge repository and clone it locally.
 - Create a new branch for your feature or bug fix.
 - Commit your changes with descriptive commit messages.
 - Push your branch to your forked repository.
